@@ -91,9 +91,9 @@ void flash()
 	}
 	i = 0;
 }
-void linex()
+void linux()
 {
-	trace_printf("well come to linex\r\n");
+	trace_printf("well come to linux\r\n");
 	while(c[i])
 	{
 		if(getbit(u1->SR,6) == 1)
@@ -147,7 +147,7 @@ main(int argc, char* argv[])
 		}
 		if(t == 'b')
 		{
-			linex();
+			linux();
 			t = 0;
 		}
 	}
